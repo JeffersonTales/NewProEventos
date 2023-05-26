@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ProEventos.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:14398;http://localhost:14399"
+    }
+  }
+}

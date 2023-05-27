@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ProEventos-App", "ProEventos-App.esproj", "{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEventos.API", "..\..\..\..\..\Desktop\Back\src\ProEventos.API\ProEventos.API.csproj", "{E379616E-0394-42D3-AE6E-8C58B48854CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E379616E-0394-42D3-AE6E-8C58B48854CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E379616E-0394-42D3-AE6E-8C58B48854CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E379616E-0394-42D3-AE6E-8C58B48854CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E379616E-0394-42D3-AE6E-8C58B48854CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C60AAD74-2EE2-4005-9BCE-94DE9C4561E2}
+	EndGlobalSection
+EndGlobal

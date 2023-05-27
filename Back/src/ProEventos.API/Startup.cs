@@ -26,11 +26,17 @@ namespace ProEventos.API.Back.src.ProEventos.API {
 
         #region propriedades
         public IConfiguration Configuration { get; }
-
         #endregion
 
+        /*A ASP.NET Core implementa a injeção de dependência por padrão. 
+         * Os serviços (como o contexto de banco de dados do EF) são registrados com injeção de dependência durante a inicialização do aplicativo. 
+         * Componentes que requerem esses serviços (como controladores MVC) fornecem esses serviços através de parâmetros do construtor.*/
         public void ConfigureServices(IServiceCollection services) {
+
+            /*O nome da string de conexão é passada para o contexto pela chamada do método no objeto DbContextOptionsBuilder. 
+             * Para o desenvolvimento local a ASP .NET Core obtém a string de conexão do arquivo appsettings.json.*/
             services.AddDbContext<DataContext>(optionsAction: context => context.UseSqlite(Configuration.GetConnectionString("Default")));
+
             services.AddControllers();
             services.AddSwaggerGen(setupAction: c => c.SwaggerDoc(name: "v1",
                                                                   info: new OpenApiInfo {

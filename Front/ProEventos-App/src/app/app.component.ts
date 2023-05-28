@@ -4,23 +4,23 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public forecasts?: WeatherForecast[];
+ // public forecasts?: WeatherForecast[];
 
   constructor(http: HttpClient) {
-    http.get<WeatherForecast[]>('/weatherforecast').subscribe(result => {
-      this.forecasts = result;
-    }, error => console.error(error));
+    //http.get<WeatherForecast[]>('/weatherforecast').subscribe(result => {
+    //  this.forecasts = result;
+    //}, error => console.error(error));
   }
 
   title = 'ProEventos-App';
 }
 
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
+//interface WeatherForecast {
+//  date: string;
+//  temperatureC: number;
+//  temperatureF: number;
+//  summary: string;
+//}

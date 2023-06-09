@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ProEventos-App", "ProEventos-App.esproj", "{42EA0D82-61D2-4A5D-87A6-FEE1B1F4D0F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51E327EC-9D10-4343-9F5F-52041521B244} = {51E327EC-9D10-4343-9F5F-52041521B244}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProEventos.API", "..\..\Back\src\ProEventos.API\ProEventos.API.csproj", "{51E327EC-9D10-4343-9F5F-52041521B244}"
 EndProject
